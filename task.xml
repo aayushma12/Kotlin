@@ -1,0 +1,98 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your fries \ndeserve better."
+            android:textColor="#D32F2F"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="8dp" />
+
+        
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join TomatoBasil now. It’s free!"
+            android:textColor="#8A8A8A"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        
+        <EditText
+            android:id="@+id/firstNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="FIRST NAME"
+            android:background="@drawable/task_shape"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#000000"
+            android:textColorHint="#8A8A8A"
+            android:inputType="textPersonName" />
+
+        
+        <EditText
+            android:id="@+id/lastNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="LAST NAME"
+            android:background="@drawable/task_shape"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#000000"
+            android:textColorHint="#8A8A8A"
+            android:inputType="textPersonName" />
+
+        
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EMAIL"
+            android:background="@drawable/task_shape"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#000000"
+            android:textColorHint="#8A8A8A"
+            android:inputType="textEmailAddress" />
+
+        
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD"
+            android:background="@drawable/task_shape"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"
+            android:textColor="#000000"
+            android:textColorHint="#8A8A8A"
+            android:inputType="textPassword" />
+
+        
+        <Button
+            android:id="@+id/signupButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:backgroundTint="#D32F2F"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+    </LinearLayout>
+</ScrollView>
